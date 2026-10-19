@@ -1,0 +1,13 @@
+{
+  "name": "@bunnish/hljs-line-numbers",
+  "version": "11.1.0",
+  "description": "Line numbers for highlight.js",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Alice Vee <me@bunni.sh>",
+  "license": "CC0-1.0",
+  "type": "module",
+  "devDependencies": {
+    "@highlightjs/cdn-assets": "^11.12.0"
+  }
+}
