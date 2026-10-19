@@ -1,6 +1,6 @@
 {
   "name": "@bunnish/hljs-line-numbers",
-  "version": "11.1.1",
+  "version": "11.1.2",
   "description": "Line numbers for highlight.js",
   "main": "index.js",
   "types": "index.d.ts",

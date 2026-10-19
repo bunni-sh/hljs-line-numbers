@@ -1,4 +1,4 @@
-class LineNumbers {
+export class LineNumbers {
   'after:highlight'(result) {
     const lineDiv = (number) => 
       `<span class="hljs-line-number" data-line-number="${number.toString().padStart(maxWidth, " ")}"></span>`;
