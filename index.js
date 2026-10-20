@@ -7,7 +7,7 @@ export class LineNumbers {
     const maxWidth = lines.length.toString().length;
     const numbered = lines.map((line, index) => `${lineDiv(index+1)}${line}`);
     result.value = numbered.join("\n");
-    result.value += `<style>.hljs-line-number:before{content:attr(data-line-number)}</style>`;
+    result.value += `<style>.hljs-line-number:before{padding-right: 1ch;content:attr(data-line-number)}</style>`;
   }
 }
 
